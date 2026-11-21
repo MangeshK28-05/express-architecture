@@ -15,13 +15,15 @@ src/
 ├── controllers/
 │   └── controller.js
 ├── data/
-│   └── hello.data.js
+│   └── data.js
 ├── middlewares/
-│   ├── asyncCatcher.js
-│   ├── errorHandler.js
+│   └── errorHandler.js
 │   └── logger.js
 ├── routes/
-│   └── hello.routes.js
+│   └── routes.js
+├── utils/
+│   └── AppError.js
+│   └── asyncCatcher.js
 ├── app.js
 └── server.js
 ```
